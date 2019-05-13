@@ -10,6 +10,8 @@ namespace Oreilly_Csharp_ch7_Interface_Clown_P300
     {
         static void Main(string[] args)
         {
+            TallGuy tallGuy = new TallGuy() { Height = 74, Name = "Jimmy" };
+            tallGuy.TalkAboutYourself();
         }
     }
 }
