@@ -12,6 +12,8 @@ namespace Oreilly_Csharp_ch7_Interface_Clown_P300
         {
             TallGuy tallGuy = new TallGuy() { Height = 74, Name = "Jimmy" };
             tallGuy.TalkAboutYourself();
+            tallGuy.Honk();
+            Console.ReadKey();
         }
     }
 }
